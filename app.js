@@ -12,6 +12,9 @@ let numberLiteral = require('./ecmascript2016/05.literal/number-literal');
 let propertyAssign = require('./ecmascript2016/06.object-properties/property-assign');
 let computedPropoertyName = require('./ecmascript2016/06.object-properties/computed-property-name');
 let methodPropoerty = require('./ecmascript2016/06.object-properties/method-property');
+let arrayMatching = require('./ecmascript2016/07.destructuring-assignment/array-matching');
+let objectMatching = require('./ecmascript2016/07.destructuring-assignment/object-matching');
+let parameterMatching = require('./ecmascript2016/07.destructuring-assignment/parameter-matching');
 
 // constants();
 // variables();
@@ -24,4 +27,7 @@ let methodPropoerty = require('./ecmascript2016/06.object-properties/method-prop
 // numberLiteral();
 // propertyAssign();
 // computedPropoertyName();
-methodPropoerty();
+// methodPropoerty();
+// arrayMatching();
+// objectMatching();
+parameterMatching();
