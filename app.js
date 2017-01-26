@@ -18,6 +18,8 @@ let classes = require('./ecmascript2016/09.classes/classes');
 let symbols = require('./ecmascript2016/10.symbols/symbols');
 let iterators = require('./ecmascript2016/11.iterators/iterators');
 let functionGenerator = require('./ecmascript2016/12.generators/function-generator');
+let set = require('./ecmascript2016/13.set-map/set');
+let map = require('./ecmascript2016/13.set-map/map');
 
 // constants();
 // variables();
@@ -38,4 +40,6 @@ let functionGenerator = require('./ecmascript2016/12.generators/function-generat
 // classes();
 // symbols();
 // iterators();
-functionGenerator();
+// functionGenerator();
+//set();
+map();
