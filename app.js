@@ -22,6 +22,8 @@ let set = require('./ecmascript2016/13.set-map/set');
 let map = require('./ecmascript2016/13.set-map/map');
 let objectExtending = require('./ecmascript2016/14.object-extending/object-extending');
 let arrayFinding = require('./ecmascript2016/15.array-finding/array-finding');
+let stringRepeat = require('./ecmascript2016/16.string-methods/string-repeat');
+let stringSearch = require('./ecmascript2016/16.string-methods/string-search');
 
 // constants();
 // variables();
@@ -46,4 +48,6 @@ let arrayFinding = require('./ecmascript2016/15.array-finding/array-finding');
 // set();
 // map();
 // objectExtending();
-arrayFinding();
+// arrayFinding();
+// stringRepeat();
+// stringSearch();
