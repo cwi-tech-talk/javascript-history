@@ -1,5 +1,3 @@
-'use strict';
-
 let constants = require('./ecmascript2016/01.constants/constants');
 let variables = require('./ecmascript2016/02.scoping/variables');
 let functions = require('./ecmascript2016/02.scoping/functions');
@@ -15,6 +13,7 @@ let methodPropoerty = require('./ecmascript2016/06.object-properties/method-prop
 let arrayMatching = require('./ecmascript2016/07.destructuring-assignment/array-matching');
 let objectMatching = require('./ecmascript2016/07.destructuring-assignment/object-matching');
 let parameterMatching = require('./ecmascript2016/07.destructuring-assignment/parameter-matching');
+let modules = require('./ecmascript2016/08.modules/client');
 
 // constants();
 // variables();
@@ -30,4 +29,5 @@ let parameterMatching = require('./ecmascript2016/07.destructuring-assignment/pa
 // methodPropoerty();
 // arrayMatching();
 // objectMatching();
-parameterMatching();
+// parameterMatching();
+modules();
