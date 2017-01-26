@@ -17,6 +17,7 @@ let parameterMatching = require('./ecmascript2016/07.destructuring-assignment/pa
 let classes = require('./ecmascript2016/09.classes/classes');
 let symbols = require('./ecmascript2016/10.symbols/symbols');
 let iterators = require('./ecmascript2016/11.iterators/iterators');
+let functionGenerator = require('./ecmascript2016/12.generators/function-generator');
 
 // constants();
 // variables();
@@ -36,4 +37,5 @@ let iterators = require('./ecmascript2016/11.iterators/iterators');
 // modules();
 // classes();
 // symbols();
-iterators();
+// iterators();
+functionGenerator();
