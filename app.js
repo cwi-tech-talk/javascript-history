@@ -21,6 +21,7 @@ let functionGenerator = require('./ecmascript2016/12.generators/function-generat
 let set = require('./ecmascript2016/13.set-map/set');
 let map = require('./ecmascript2016/13.set-map/map');
 let objectExtending = require('./ecmascript2016/14.object-extending/object-extending');
+let arrayFinding = require('./ecmascript2016/15.array-finding/array-finding');
 
 // constants();
 // variables();
@@ -44,4 +45,5 @@ let objectExtending = require('./ecmascript2016/14.object-extending/object-exten
 // functionGenerator();
 // set();
 // map();
-objectExtending();
+// objectExtending();
+arrayFinding();
