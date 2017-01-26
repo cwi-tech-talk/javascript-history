@@ -24,6 +24,11 @@ let objectExtending = require('./ecmascript2016/14.object-extending/object-exten
 let arrayFinding = require('./ecmascript2016/15.array-finding/array-finding');
 let stringRepeat = require('./ecmascript2016/16.string-methods/string-repeat');
 let stringSearch = require('./ecmascript2016/16.string-methods/string-search');
+let nbTypeChecking = require('./ecmascript2016/17.number-methods/type-checking');
+let nbSafetyChecking = require('./ecmascript2016/17.number-methods/safety-checking');
+let epsilon = require('./ecmascript2016/17.number-methods/epsilon');
+let nbTruncation = require('./ecmascript2016/17.number-methods/truncation');
+let nbSign = require('./ecmascript2016/17.number-methods/sign');
 
 // constants();
 // variables();
@@ -51,3 +56,8 @@ let stringSearch = require('./ecmascript2016/16.string-methods/string-search');
 // arrayFinding();
 // stringRepeat();
 // stringSearch();
+// nbTypeChecking();
+// nbSafetyChecking();
+// epsilon();
+// nbTruncation();
+// nbSign();
