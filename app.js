@@ -13,7 +13,8 @@ let methodPropoerty = require('./ecmascript2016/06.object-properties/method-prop
 let arrayMatching = require('./ecmascript2016/07.destructuring-assignment/array-matching');
 let objectMatching = require('./ecmascript2016/07.destructuring-assignment/object-matching');
 let parameterMatching = require('./ecmascript2016/07.destructuring-assignment/parameter-matching');
-let modules = require('./ecmascript2016/08.modules/client');
+//let modules = require('./ecmascript2016/08.modules/client');
+let classes = require('./ecmascript2016/09.classes/classes');
 
 // constants();
 // variables();
@@ -30,4 +31,5 @@ let modules = require('./ecmascript2016/08.modules/client');
 // arrayMatching();
 // objectMatching();
 // parameterMatching();
-modules();
+// modules();
+classes();
