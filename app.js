@@ -16,6 +16,7 @@ let parameterMatching = require('./ecmascript2016/07.destructuring-assignment/pa
 //let modules = require('./ecmascript2016/08.modules/client');
 let classes = require('./ecmascript2016/09.classes/classes');
 let symbols = require('./ecmascript2016/10.symbols/symbols');
+let iterators = require('./ecmascript2016/11.iterators/iterators');
 
 // constants();
 // variables();
@@ -34,4 +35,5 @@ let symbols = require('./ecmascript2016/10.symbols/symbols');
 // parameterMatching();
 // modules();
 // classes();
-symbols();
+// symbols();
+iterators();
