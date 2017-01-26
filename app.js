@@ -20,6 +20,7 @@ let iterators = require('./ecmascript2016/11.iterators/iterators');
 let functionGenerator = require('./ecmascript2016/12.generators/function-generator');
 let set = require('./ecmascript2016/13.set-map/set');
 let map = require('./ecmascript2016/13.set-map/map');
+let objectExtending = require('./ecmascript2016/14.object-extending/object-extending');
 
 // constants();
 // variables();
@@ -41,5 +42,6 @@ let map = require('./ecmascript2016/13.set-map/map');
 // symbols();
 // iterators();
 // functionGenerator();
-//set();
-map();
+// set();
+// map();
+objectExtending();
