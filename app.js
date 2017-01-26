@@ -15,6 +15,7 @@ let objectMatching = require('./ecmascript2016/07.destructuring-assignment/objec
 let parameterMatching = require('./ecmascript2016/07.destructuring-assignment/parameter-matching');
 //let modules = require('./ecmascript2016/08.modules/client');
 let classes = require('./ecmascript2016/09.classes/classes');
+let symbols = require('./ecmascript2016/10.symbols/symbols');
 
 // constants();
 // variables();
@@ -32,4 +33,5 @@ let classes = require('./ecmascript2016/09.classes/classes');
 // objectMatching();
 // parameterMatching();
 // modules();
-classes();
+// classes();
+symbols();
