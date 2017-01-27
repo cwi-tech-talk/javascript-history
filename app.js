@@ -31,6 +31,10 @@ let nbTruncation = require('./ecmascript2016/17.number-methods/truncation');
 let nbSign = require('./ecmascript2016/17.number-methods/sign');
 let proxying = require('./ecmascript2016/18.meta-programming/proxying');
 let reflection = require('./ecmascript2016/18.meta-programming/reflection');
+let collator = require('./ecmascript2016/19.internacionalization-localization/collator');
+let numberFormatting = require('./ecmascript2016/19.internacionalization-localization/number-formatting');
+let currencyFormatting = require('./ecmascript2016/19.internacionalization-localization/currency-formatting');
+let dateFormatting = require('./ecmascript2016/19.internacionalization-localization/date-formatting');
 
 // constants();
 // variables();
@@ -65,3 +69,7 @@ let reflection = require('./ecmascript2016/18.meta-programming/reflection');
 // nbSign();
 // proxying();
 // reflection();
+// collator();
+// numberFormatting();
+// currencyFormatting();
+// dateFormatting();
