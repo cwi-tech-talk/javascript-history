@@ -29,6 +29,8 @@ let nbSafetyChecking = require('./ecmascript2016/17.number-methods/safety-checki
 let epsilon = require('./ecmascript2016/17.number-methods/epsilon');
 let nbTruncation = require('./ecmascript2016/17.number-methods/truncation');
 let nbSign = require('./ecmascript2016/17.number-methods/sign');
+let proxying = require('./ecmascript2016/18.meta-programming/proxying');
+let reflection = require('./ecmascript2016/18.meta-programming/reflection');
 
 // constants();
 // variables();
@@ -61,3 +63,5 @@ let nbSign = require('./ecmascript2016/17.number-methods/sign');
 // epsilon();
 // nbTruncation();
 // nbSign();
+// proxying();
+// reflection();
