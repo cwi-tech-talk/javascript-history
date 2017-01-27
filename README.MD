@@ -213,6 +213,8 @@ Strong differences in the committee started to appear.
 
 > \* server / runtime engine
 
+![Javascript Engine Family Tree](http://creativejs.com/wp-content/uploads/2013/05/Javascript-engine-family-tree.png)
+
 ---
 
 ### 4. ECMAScript 5 browser support
