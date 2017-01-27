@@ -8,7 +8,7 @@
 3. Javascript engines / browsers
 4. ECMAScript 5 browser support
 5. ECMAScript 6 (2015) browser support
-6. Propostas para o futuro
+6. Future Proposals
 7. ES2015 hands on (bonus)
 8. References
 
@@ -241,7 +241,7 @@ Strong differences in the committee started to appear.
 
 ---
 
-### 6. Propostas para o futuro
+### 6. Future Proposals
 
 #### 6.1 ES2017 Expected Changes
 
