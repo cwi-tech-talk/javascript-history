@@ -11,6 +11,7 @@
 6. Future Proposals
 7. ES2015 hands on (bonus)
 8. References
+9. Further Readings
 
 ---
 
@@ -187,7 +188,7 @@ Strong differences in the committee started to appear.
 
 ### 3. Javascript engines / browsers
 
-- Google V8
+- Google V8 (Crankshaft)
   - Chrome
   - Nodejs *
   - Android Browser
@@ -197,11 +198,11 @@ Strong differences in the committee started to appear.
   - Netscape
   - Firefox
   
-- Microsoft Chakra
+- Microsoft Chakra (JScript)
   - Internet Explorer
   - Edge
   
-- Javascript Core
+- Javascript Core (Nitro)
   - Safari
   - iOS Safari
   - PhantomJS *
@@ -266,11 +267,19 @@ Strong differences in the committee started to appear.
 
 * [Javascript History](https://auth0.com/blog/a-brief-history-of-javascript)
 * [ECMAScript Editions](http://www.w3schools.com/js/js_versions.asp)
+* [JS Engine Race](http://creativejs.com/2013/06/the-race-for-speed-part-1-the-javascript-engine-family-tree)
 * [ES5 Compatibility](http://kangax.github.io/compat-table/es5)
 * [ES2015 Compatibility](http://kangax.github.io/compat-table/es6)
 * [ES2015 News](http://es6-features.org)
 * [ES2016 News](http://www.2ality.com/2016/01/ecmascript-2016.html)
 * [ES2017 News](http://www.2ality.com/2016/02/ecmascript-2017.html)
+* [Future Proposals](https://github.com/tc39/ecma262/blob/master/README.md)
+
+---
+
+### 9. Further Readings
+
+* [Crankshaft](https://blog.chromium.org/2010/12/new-crankshaft-for-v8.html)
+* [Nitro](https://ariya.io/2012/06/nitro-javascriptcore-and-jit)
 * [Shared Array Buffer](http://www.2ality.com/2017/01/shared-array-buffer.html)
 * [Tail Call Optimisation](http://www.2ality.com/2015/06/tail-call-optimization.html)
-* [Future Proposals](https://github.com/tc39/ecma262/blob/master/README.md)
