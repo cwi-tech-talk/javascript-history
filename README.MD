@@ -273,4 +273,4 @@ Strong differences in the committee started to appear.
 * [ES2017 News](http://www.2ality.com/2016/02/ecmascript-2017.html)
 * [Shared Array Buffer](http://www.2ality.com/2017/01/shared-array-buffer.html)
 * [Tail Call Optimisation](http://www.2ality.com/2015/06/tail-call-optimization.html)
-
+* [Future Proposals](https://github.com/tc39/ecma262/blob/master/README.md)
