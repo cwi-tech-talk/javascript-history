@@ -2,20 +2,22 @@
 ## Javascript History
 
 #### Roadmap
+
 1. Brief JavaScript History
 2. Brief ECMAScript History
 3. Javascript engines / browsers
 4. ECMAScript 5 browser support
 5. ECMAScript 6 (2015) browser support
-6. ECMAScript 7 (2016) novidades
-7. Propostas para o futuro
-8. O que tem de "novo" no ES6 (se der tempo)
+6. Propostas para o futuro
+7. ES2015 hands on (bonus)
+8. References
 
 ---
 
 ### 1. Javascript History
 
 #### 1.1. Goals
+
 * Animation, interaction, automation
 * Interact with DOM
 * For non-developers
@@ -25,6 +27,7 @@
 * Java-like syntax
 
 #### 1.2. Timeline
+
 * [1995, May] First prototype of Mocha / Livescript was integrated with Netscape Navigator
 * [1995, Dec] First Javascript release was integrated in Netscape Navigator 2.0
 * [1995, Dec] Microsoft enters into the race with the JScript 
@@ -56,6 +59,7 @@
 ##### 2.2.2 ECMAScript 2 - Just fix inconsistencies between ECMA and the ISO standard
 
 ##### 2.2.3 ECMAScript 3 - First big changes
+
 * Regular expressions
 * The do-while block
 * Exceptions and the try/catch blocks
@@ -66,6 +70,7 @@
 > AJAX was born, but was not a ecma standard at the time
 
 ##### 2.2.4 ECMAScript 4 - Dark side of Javascript
+
 * Classes
 * Interfaces
 * Namespaces
@@ -99,6 +104,7 @@ Strong differences in the committee started to appear.
 > <br>- Small and incremental changes
 
 ##### 2.2.5 ECMAScript 5 - The redemption of Javascript
+
 * Trailing commas in array and object literals
 * Reserved words as property names
 * New `Object` methods (`create`, `defineProperty`, `keys`, `seal`, `freeze`, `getOwnPropertyNames`, etc.)
@@ -114,6 +120,7 @@ Strong differences in the committee started to appear.
 > ECMAScript 5 is a rename from ECMAScript 3.1
 
 ##### 2.2.6 ECMAScript 6 (2015) - The rise of Javascript
+
 * Constants
 * Scoped function and variable
 * Arrow functions
@@ -158,6 +165,7 @@ Strong differences in the committee started to appear.
 * Datetime formatting (`new Intl.DateTimeFormat("en-US").format(new Date())`)
 
 ##### 2.2.7 ECMAScript 7 (2016) - A process improvement
+
 * Array includes (`[1,2,3,4].inludes(3) === true`)
 * Exponentiation operator (`3 ** 2 === 9`)
 * New release process works:
@@ -165,6 +173,15 @@ Strong differences in the committee started to appear.
 > New features are only included after they are completely ready and after there were at least two implementations that were sufficiently field-tested.
 
 > Releases happen much more frequently (once a year) and can be more incremental.
+
+##### 2.2.8 Official Naming
+
+* `ECMAScript 1` | ES1
+* `ECMAScript 2` | ES2
+* `ECMAScript 3` | ES3
+* `ECMAScript 5` | ES5 [renamed from ES3.1]
+* `ECMAScript 2015` | ES2015 [also known as ES6]
+* `ECMAScript 2016` | ES2016 [also known as ES7]
 
 ---
 
@@ -198,6 +215,7 @@ Strong differences in the committee started to appear.
 ---
 
 ### 4. ECMAScript 5 browser support
+
 - [2012-07-24] Safari 6
 - [2012-09-03] IE 10
 - [2012-09-24] Chrome 23
@@ -210,6 +228,7 @@ Strong differences in the committee started to appear.
 ---
 
 ### 5. ECMAScript 6 (2015) browser support
+
 - [100%] Safari 10
 - [100%] iOS Safari 10
 - [ 97%] Chrome 56 | Nodejs 7 (TCO *, `Regex.compile`)
@@ -222,12 +241,36 @@ Strong differences in the committee started to appear.
 
 ---
 
-### 6. ECMAScript 7 (2016) novidades
+### 6. Propostas para o futuro
+
+#### 6.1 ES2017 Expected Changes
+
+* Object values (`Object.values({ one: 1, two: 2 }) = [ 1, 2 ]`)
+* Object entries (`Object.entries({ one: 1, two: 2 }) = [ [ 'one', 1 ], [ 'two', 2 ] ]`)
+* Object getOwnPropertyDescriptors (get all descriptors)
+* String padStart (`'4'.padStart(3, '0') = '004'`)
+* String padEnd (`'4'.padEnd(3, '0') = '400'`)
+* Trailing commas in function parameter lists and calls (`[1,2,] = [1,2]`)
+* Async Functions (another talk here)
+* Shared memory and atomics (another talk serie here)
 
 ---
 
-### 7. Propostas para o futuro
+### 7. ES2015 hands on (bonus)
+
+> Open up Visual Studio Code!
 
 ---
 
-### 8. O que tem de "novo" no ES6 (se der tempo)
+### 8. References
+
+* [Javascript History](https://auth0.com/blog/a-brief-history-of-javascript)
+* [ECMAScript Editions](http://www.w3schools.com/js/js_versions.asp)
+* [ES5 Compatibility](http://kangax.github.io/compat-table/es5)
+* [ES2015 Compatibility](http://kangax.github.io/compat-table/es6)
+* [ES2015 News](http://es6-features.org)
+* [ES2016 News](http://www.2ality.com/2016/01/ecmascript-2016.html)
+* [ES2017 News](http://www.2ality.com/2016/02/ecmascript-2017.html)
+* [Shared Array Buffer](http://www.2ality.com/2017/01/shared-array-buffer.html)
+* [Tail Call Optimisation](http://www.2ality.com/2015/06/tail-call-optimization.html)
+
